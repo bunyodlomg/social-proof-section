@@ -1,0 +1,7 @@
+@mixin font($size, $weight, $line-height, $color){
+    font-family: League Spartan, sans-serif;
+    font-size: $size + rem;
+    font-weight: $weight;
+    line-height: $line-height + px;
+    color: $color;
+}
